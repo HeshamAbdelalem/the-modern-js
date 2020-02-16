@@ -1,0 +1,22 @@
+{
+  "name": "the-modern-js-bootcamp",
+  "version": "1.0.0",
+  "description": "my files from this course",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeshamAbdelalem/the-modern-js.git"
+  },
+  "author": "hesham-abdelalem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeshamAbdelalem/the-modern-js/issues"
+  },
+  "homepage": "https://github.com/HeshamAbdelalem/the-modern-js#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
